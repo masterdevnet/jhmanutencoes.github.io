@@ -1,11 +1,14 @@
 import Link from "next/link"
 const Footer = () => {
     return (
-        <div>
-            <p>
-                Jh Manutenções &copy; 2022  <Link href="https://jhmanutencoes.com"><a>jhmanutencoes</a></Link>
-            </p>
-        </div>
+        <footer className="text-muted py-5">
+            <div className="container">
+                
+                    <p className="float-end mb-1">Made by <a href="#"> E-Software</a> &copy; <a href="https://jhmanutencoes.com.br">JH Manutenções</a></p>
+                    <p></p>
+                
+            </div>
+        </footer>
     )
 }
 
